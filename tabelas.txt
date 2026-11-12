@@ -1,0 +1,72 @@
+Tabelas do banco:
+
+1.clientes
+2.categorias
+3.produtos
+4.vendedores
+5.vendas
+6.itens_venda
+
+
+Tabela clientes:
+
+id_cliente (número único de cada cliente)
+nome
+telefone
+email
+cidade
+
+Tabela categorias:
+
+id_categoria (número único de cada categoria)
+nome_categoria (ex: Ração, Brinquedos, Higiene)
+
+
+Tabela produtos:
+
+id_produto (número único de cada produto)
+nome_produto
+preco
+estoque (quantidade que tem na loja)
+id_categoria (liga o produto a uma categoria)
+
+
+
+Tabela vendedores:
+
+id_vendedor (número único de cada vendedor)
+nome
+data_admissao (dia em que começou a trabalhar na loja)
+
+
+
+Tabela vendas:
+
+id_venda (número único de cada venda)
+data_venda (dia em que a venda aconteceu)
+id_cliente (quem comprou)
+id_vendedor (quem vendeu)
+
+
+
+Tabela itens_venda:
+
+id_item (número único de cada item)
+id_venda (a qual venda esse item pertence)
+id_produto (qual produto foi vendido)
+quantidade (quantas unidades)
+preco_unitario (preço de cada unidade na hora da venda)
+
+
+
+
+Ligações:
+
+Uma categoria tem vários produtos
+Um cliente faz várias vendas
+Um vendedor faz várias vendas
+Uma venda tem vários itens
+Um produto aparece em vários itens
+
+
+

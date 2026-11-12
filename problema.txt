@@ -1,0 +1,9 @@
+O Pet Shop “Amigo Fiel” vende ração, brinquedos e produtos de higiene. Quero um banco de dados pra guardar os clientes, os produtos e as vendas.
+
+
+O banco precisa responder:
+
+Quais produtos mais vendem?
+Quanto a loja faturou no mês?
+Quais clientes mais compram?
+Quais produtos estão com estoque baixo?
